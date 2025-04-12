@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.topic {
+  background: white;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.topic-header {
+  border-bottom: 2px solid;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.topic-img {
+  max-width: 300px
+}
+
+.topic-title {
+
+}
+
+.programs-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 1fr;
+  gap: 3rem;
+  padding: 2rem;
+}
+
+.program {
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+  padding: 36px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.program-title-type {
+  display: flex;
+  flex-direction: column;
+}
+
+.program-type {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  align-self: end;
+}
+
+.description {
+  color: #333;
+}
+
+.time {
+  font-size: 0.9em;
+  margin: 5px 0;
+}
+
+.building-fig {
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.building-fig img {
+  max-width: 20rem;
+}
+
+.building-fig figcaption {
+  text-align: center;
+  background-color: rgba(102, 102, 102, 0.15);
+}
+
+.location {
+  margin: 5px 0;
+  font-size: 0.9em;
+}
+
+.topic-selector {
+  margin: 20px 0;
+}
+
+.topic-selector label {
+  color: #446b6c;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+#topic-select {
+  padding: 8px;
+  font-size: 1rem;
+}
