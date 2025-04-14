@@ -187,7 +187,7 @@ async function init() {
   try {
     await loadData();
     renderTopic(topicMap);
-    addTopicsNames();
+    addTopicsNamesToSelector();
     addDropdownMenuEventListen();
   } catch (error) {
     //TODO leave for future when using HTTP request

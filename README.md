@@ -1,0 +1,1 @@
+**Please use Live Serve in VScode to open the page to avoid CORS issue.**
